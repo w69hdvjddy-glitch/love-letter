@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Một lá thư dành cho em ❤️</title>
+<style>
+body{margin:0;font-family:Georgia,serif;background:linear-gradient(135deg,#ffe1e8,#fff5f0);color:#633746;min-height:100vh;display:flex;align-items:center;justify-content:center;text-align:center;padding:22px;box-sizing:border-box}
+.card{max-width:430px;background:#ffffffdd;padding:30px 24px;border-radius:25px;box-shadow:0 10px 35px #b85b7130}
+h1{color:#c84f72;font-size:30px}
+p{line-height:1.8;font-size:18px}
+button{border:0;background:#d85d7d;color:white;padding:14px 24px;border-radius:30px;font-size:17px}
+#letter{display:none;text-align:left}
+.heart{font-size:42px}
+</style>
+</head>
+<body>
+<div class="card">
+<div class="heart">❤️</div>
+<h1>Gửi cô gái đặc biệt của anh</h1>
+<p>Anh có một điều nhỏ muốn gửi đến em...</p>
+<button onclick="document.getElementById('letter').style.display='block';this.style.display='none'">💌 Mở thư nhé</button>
+<div id="letter">
+<p>Gửi em, cô gái làm những ngày bình thường của anh trở nên đặc biệt.</p>
+<p>Anh không biết phải nói những lời hoa mỹ thế nào, chỉ muốn em biết rằng anh rất vui mỗi khi được trò chuyện cùng em. Đôi khi chỉ một tin nhắn của em cũng đủ khiến ngày của anh vui hơn rất nhiều.</p>
+<p>Anh mong em luôn vui vẻ, bình an và gặp thật nhiều điều tốt đẹp. Nếu có thể, anh muốn được tìm hiểu em nhiều hơn, từng chút một, bằng sự chân thành của mình.</p>
+<p style="text-align:right">Một người luôn muốn dành cho em sự chân thành ❤️</p>
+</div>
+</div>
+</body>
+</html>
